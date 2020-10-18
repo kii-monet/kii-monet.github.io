@@ -1,6 +1,4 @@
 $(function(){
-	$("#header").load("header.html");
-	// $("#footer").load("footer.html");
 	var
 	  winW = $(window).width(),
 		winH = $(window).height(),
