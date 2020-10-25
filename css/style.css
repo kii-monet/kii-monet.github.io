@@ -376,3 +376,25 @@ section h2 span {
 	width: 100%;
 }
 .swiper-pagination-bullet-active { background-color: #222; }
+
+
+.list204 ul {
+	padding: 0.3em 0;
+	list-style-type: none;
+	border: none;
+  }
+  .list204 ul li {
+	position:relative;
+	padding: 0.3em 0 0.3em 1.6em;
+	line-height: 1.5;
+  }
+  .list204 ul li:before{
+	content: '';
+	position: absolute;
+	background-color: #013466;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	left: 10px;
+	top: 13px;
+  }
